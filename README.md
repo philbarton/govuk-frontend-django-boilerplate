@@ -19,15 +19,15 @@ Advance django/python users can skip this
 ## Install NPM modules
 1) move into the sample_app directory
 2) run `npm install`
+This will install dependencies defined in `sample_app/package.json`
 
 ## Run app
 
 1) move one level from `sample_app folder`
 2) run `python manage.py runserver`
 
-This will install dependencies defined in `sample_app/package.json`
 
-login to npm  with test user (in private beta) - to make it work without frontend, comment out this line in sample_app/package.json:
+To use GOV.UK Frontend, login to npm  with test user (in private beta) - to make it work without frontend, comment out this line in sample_app/package.json:
 `"@govuk-frontend/all": "0.0.22-alpha"`
 
 To compile Sass partials from `node_packages` we've used
@@ -35,4 +35,4 @@ To compile Sass partials from `node_packages` we've used
 
 Entry point for Sass partials is `assets/sass` and destination is `static/css`
 
-* (access required)
+*(access required)
