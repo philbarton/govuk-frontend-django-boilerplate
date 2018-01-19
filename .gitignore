@@ -1,0 +1,9 @@
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+sample_app/node_modules/
+npm-debug.log
+.DS_Store
+sample_app/package-lock.json

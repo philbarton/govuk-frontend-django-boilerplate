@@ -1,0 +1,30 @@
+{% extends "govuk_template/base.html" %}
+{% block content %}
+<div class="govuk-o-width-container">
+  <div class="govuk-o-grid govuk-!-mt-r9">
+    <div class="govuk-o-grid__item govuk-o-grid__item--two-thirds">
+
+      <h1 class="govuk-heading-xl">
+        <span class="govuk-caption-xl">Typography</span>
+        GOV.UK Frontend
+      </h1>
+      <a href="/" role="button" class="govuk-c-button">
+        Link button
+      </a>
+
+      <details class="govuk-c-details">
+        <summary class="govuk-c-details__summary">
+          <span class="govuk-c-details__summary-text">
+            Help with nationality
+          </span>
+        </summary>
+        <div class="govuk-c-border govuk-c-border--left-narrow">
+          <div class="govuk-c-details__text">
+            We need to know your nationality so we can work out which elections you’re entitled to vote in. If you can’t provide your nationality, you’ll have to send copies of identity documents through the post.
+          </div>
+        </div>
+      </details>
+    </div>
+  </div>
+</div>
+{% endblock %}
