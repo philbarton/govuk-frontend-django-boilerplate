@@ -4,6 +4,8 @@ Demo project to show integration
 
 ## Prerequisites:
 1) [Nodejs](https://nodejs.org/en/)
+2) [Homebrew](https://brew.sh/)
+3) Python3 with `brew install python3`
 
 ## Setup Django
 Advance django/python users can skip this
