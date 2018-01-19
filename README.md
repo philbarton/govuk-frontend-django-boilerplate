@@ -27,8 +27,10 @@ This will install dependencies defined in `sample_app/package.json`
 2) run `python manage.py runserver`
 
 
-To use GOV.UK Frontend, login to npm  with test user (in private beta) - to make it work without frontend, comment out this line in sample_app/package.json:
-`"@govuk-frontend/all": "0.0.22-alpha"`
+To use GOV.UK Frontend, login to npm  with test user (in private beta) - to make it work without frontend, comment out:
+`"@govuk-frontend/all": "0.0.22-alpha"` in `sample_app/package.json` and
+`@import "@govuk-frontend/all/all";` in `sample_app/assets/sass/`
+and rerun `npm install` and `python manage.py runserver`
 
 To compile Sass partials from `node_packages` we've used
 [https://github.com/jrief/django-sass-processor](https://github.com/jrief/django-sass-processor)
