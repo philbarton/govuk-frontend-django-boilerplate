@@ -16,6 +16,10 @@ Advance django/python users can skip this
 4) run `pip install Django`
 5) run `pip install libsass django-compressor django-sass-processor`
 
+alternatively, create a directory and install wthid boilerplate with
+a) run `django-admin.py startproject --template https://github.com/igloosi/govuk-frontend-django-boilerplate/archive/master.zip govuk_frontend_django_boilerplate .`
+b) run `pip install libsass django-compressor django-sass-processor`
+
 ## Install NPM modules
 1) move into the sample_app directory
 2) run `npm install`
